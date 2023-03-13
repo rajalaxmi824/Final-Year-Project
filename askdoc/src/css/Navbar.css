@@ -1,0 +1,93 @@
+.docHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    width: 100%;
+
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+  }
+
+  .docheader__logo > img {
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .docheader__icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .docheader__icons > .active > .MuiSvgIcon-root {
+    fill: #8f1f1b;
+  }
+  
+  .docheader__icon > .MuiSvgIcon-root {
+    font-size: xx-large;
+    background-color: white;
+    padding: 5px 20px;
+    color: gray;
+  }
+  
+  .docheader__icon > .MuiSvgIcon-root:hover {
+    background-color: rgba(233, 233, 233, 0.5);
+    border-radius: 10px;
+    color: #0096ff;
+  }
+  
+  .docheader__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  
+  .docheader__input > input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(49, 49, 49);
+  }
+  
+  .docheader__input > .MuiSvgIcon-root {
+    color: gray;
+  }
+  
+  .docheader__avatar {
+    cursor: pointer;
+  }
+  .docheader__Rem {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  
+  .docheader__Rem > .MuiSvgIcon-root {
+    font-size: xx-large;
+    color: gray;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .docheader__Rem > .MuiSvgIcon-root:hover {
+    color: #0096ff;
+  }
+  
+  .docheader__Rem > .MuiButton-root {
+    color: white;
+    background: #0096ff;
+    text-transform: inherit;
+    border-radius: 20px;
+    margin-left: 25px;
+  }
+  
+  .docheader__Rem > .MuiButton-root:hover {
+    color: #ffffff;
+    background: #1219cf;
+  }
